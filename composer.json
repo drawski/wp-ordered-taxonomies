@@ -1,0 +1,18 @@
+{
+  "name": "WordPress Ordered Taxonomies Plugin",
+  "type": "wordpress-plugin",
+  "description": "WordPress plugin to support ordering of the taxonomy terms in posts",
+  "homepage": "https://github.com/drawski/ordered-taxonomies",
+  "license": "GPL2 (http://www.gnu.org/licenses/gpl-2.0.html)",
+  "authors": [],
+  "autoload": {
+      "psr-4": {
+        "WordPress\\Plugins\\": "class/"
+      }
+  },
+  "require": {
+    "php": ">= 5.3"
+  },
+  "require-dev": {
+  }
+}
