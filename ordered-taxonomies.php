@@ -14,4 +14,4 @@ if (!class_exists('\\WordPress\\Plugins\\OrderedTaxonomies')) {
 	require_once(__DIR__ . '/class/OrderedTaxonomies.php');
 }
 
-\WordPress\Plugins\OrderedTaxonomies::bootstrap();
+\WordPress\Plugins\OrderedTaxonomies::bootstrap(plugin_dir_url(__FILE__));
